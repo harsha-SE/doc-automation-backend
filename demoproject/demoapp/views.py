@@ -12,7 +12,7 @@ from django.http import JsonResponse
 
 
 def home(request):
-    return HttpResponse("Welcome to the home page.")
+    return HttpResponse("Welcome to the home page.") #added this comment for testing 
 
 @csrf_exempt
 def submit_form(request):
